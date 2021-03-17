@@ -19,7 +19,7 @@ const server =
 
             if (req.method === 'GET') {
 
-                let params = search_params.get("x")
+                let params = search_params.get("number1")
 
                 // Process the queries here
                 res.statusCode = 200 //code for OK
